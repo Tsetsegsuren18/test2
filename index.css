@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+}
+ body{
+    margin: 0;
+    font-family: 'Poppins';
+    background-color: #e5e5e5;
+    position: relative;
+    font-size: 0;
+ }
+ ul,li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+ }
+ .col{
+    position: absolute;
+    top: 30px;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    display: flex;
+    justify-content: space-evenly;
+ }
+.container{
+    width: 1280px;
+    margin: 0 auto;
+    height: auto;
+
+}
+.header{
+   padding: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-left{
+   display: flex;
+   align-items: center; /* shineer nemsen*/
+}
+
+.header-left__logo{
+   width: 120px;
+   margin-right: 20px;
+}
+
+.header-left-nav{
+   display: flex;
+}
